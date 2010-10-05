@@ -18,15 +18,9 @@ module LeftRight
       super
     end
 
-    # We intercept this to be able to set some pertinent state, as well as
-    # change all remaining test methods in the current class to just skip,
-    # since we already failed once at this point.
-    #
+    # We intercept this to be able to set some pertinent state
     def add_fault(fault)
       lr.state.fault = fault
-      lr.skip_testing_class lr.state.class
-
-      super
     end
 
     # Test::Unit uses this method to print '.', 'F', 'E', and possibly

@@ -192,7 +192,7 @@ module LeftRight
   # Returns the current fault as a formatted error message.
   #
   def self.E
-    F C.yellow
+    F C.red
   end
 
   # Returns a passing dot, aware of how many to print per-line.
