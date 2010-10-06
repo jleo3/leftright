@@ -21,6 +21,7 @@ module LeftRight
     # We intercept this to be able to set some pertinent state
     def add_fault(fault)
       lr.state.fault = fault
+      super
     end
 
     # Test::Unit uses this method to print '.', 'F', 'E', and possibly
