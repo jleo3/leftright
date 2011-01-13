@@ -1,12 +1,12 @@
 require 'lib/leftright/version'
 
 Gem::Specification.new do |gem|
-  gem.name    = 'leftright'
+  gem.name    = 'jleo-leftright'
   gem.version = LeftRight::VERSION
 
-  gem.author, gem.email = 'Jordi Bunster', 'jordi@bunster.org'
+  gem.author, gem.email = 'Joe Leo', 'jleo3@cyrusinnovation.com'
 
-  gem.summary     = "Cool replacement for Test::Unit's TestRunner"
+  gem.summary     = "Jordi Bunster's leftright gem with a couple of tweaks."
   gem.description = %{ leftright is kind of like the redgreen gem. It makes
     passing tests look green, exceptions yellow, and failures red. It also
     has a few features that make your workflow a bit faster (see README).
