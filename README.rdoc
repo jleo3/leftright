@@ -22,7 +22,7 @@ using the Ruby 1.9 + Rails 3 combo day to day.
 
 == Installation instructions
 
-  gem install leftright
+  gem install jleo-leftright
 
 If you're on JRuby, you'll need to install ffi-ncurses to format properly:
 
